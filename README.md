@@ -1,4 +1,4 @@
-# Flutter Git hub Action CI/CD Android 🤩
+# Flutter Git Hub Action CI/CD Android 🤩
 
 ## Build Flutter Apps Automatically, Easily and Publish (Deploy) to your Google Play Store for Free 😇
 
