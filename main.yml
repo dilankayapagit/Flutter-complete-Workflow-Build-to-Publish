@@ -34,12 +34,12 @@ jobs:
     - run: flutter build apk
 
     #this is for web only build
-    - run: flutter build web
+    # - run: flutter build web
 
-    - uses: vimtor/action-zip@v1
-      with:
-        files: build/web
-        dest: build/web.zip
+    # - uses: vimtor/action-zip@v1
+    #   with:
+    #     files: build/web
+    #     dest: build/web.zip
         
     - name: Push to Releases
     - uses: ncipollo/release-action@v1
@@ -49,7 +49,7 @@ jobs:
         token: ${{ secrets.TOKEN }}
 
 
-    - name: Push to Releases
+    - name: Publish
     - uses: r0adkll/upload-google-play@v1
       with:
         serviceAccountJsonPlainText: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_KEY }}

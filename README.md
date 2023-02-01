@@ -1,15 +1,27 @@
-# Flutter Git hub Action CI / CD
+# Flutter Git hub Action CI / CD Android 🤩
 
-## Build Flutter Apps Automatically, Easily and Publish (deploy) to your google play store
+## Build Flutter Apps Automatically, Easily and Publish (Deploy) to your Google Play Store for Free 😇
 
-### Add these to you git hub secrets
+### Add these to you git hub secrets 🦹
 
+```
 TOKEN = git hub secrets key
 ANDROID_PACKAGE_NAME = add com.app.id
-GOOGLE_SERVICE_ACCOUNT_KEY = play store service account json key file
+GOOGLE_SERVICE_ACCOUNT_KEY = play store service account json key file 
+```
 
-### How to use
+### How to use 👨‍💻
 
-Add this workflow in the Project (Flutter Project) >  create ".github\workflows" folder and add "main.yml"
+Add this workflow in the `Project (Flutter Project) >  create ".github\workflows" folder and add "main.yml"`
 
-## If you have any issue Let me know
+```
+├──.github
+    ├── workflows
+        ├──main.yml
+```
+
+## Reference
+
+Upload android release to the play store [Link](https://github.com/r0adkll/upload-google-play).
+
+### If you have any problem let me know
